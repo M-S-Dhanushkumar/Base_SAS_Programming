@@ -30,7 +30,7 @@ OPTIONS VALIDVARNAME=v7;
 LIBNAME xlsfile xlsx "Pathname";
 
 *Complete the data= worksheet to refer the xlsfile;
-PROC CONTENTS DATA=dataset.Pathname;
+PROC CONTENTS DATA=libref.dataset;
 RUN;
 
 
