@@ -1,0 +1,5 @@
+Length: Variable names can be up to 32 characters in length.
+Characters: Variable names can consist of letters (both uppercase and lowercase), digits, and underscores (_).
+Start with Letter or Underscore: Variable names must start with a letter or an underscore. They cannot start with a digit.
+No Special Characters: Avoid using special characters like spaces, hyphens, periods, or other punctuation marks within variable names.
+Case Sensitivity: By default, SAS is case-insensitive for variable names. However, it's recommended to follow consistent casing (e.g., all lowercase or mixed case) to enhance code readability.
