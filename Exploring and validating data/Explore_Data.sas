@@ -1,5 +1,5 @@
 
-libname libref "S:/workshop/EPG1V2/data";
+libname pg1 "S:/workshop/EPG1V2/data";
 
 /*  */
 /* list first 20 rows */
