@@ -1,0 +1,16 @@
+***********************************************************;
+*                                                         *;
+*    1) Add an assignment statement to create StormLength *;
+*       that represents the number of days between        *;
+*       StartDate and EndDate.                            *;
+*    2) Run the program. In 1980, how long did the storm  *;
+*       named Agatha last?                                *;
+***********************************************************;
+
+data storm_length;
+	set input.storm_summary;
+	drop Hem_EW Hem_NS Lat Lon;
+	*Add assignment statement;
+	StromLength = EndDate - StartDate+1;
+run;
+
