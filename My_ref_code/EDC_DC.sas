@@ -13,7 +13,7 @@ run;
 
 data output_data;
     set Input_1;
-	Role = 'Lead Data Manager';
+    Role = 'Lead Data Manager';
     Name = IAC_PoC;
     output;
     Role = 'Project Lead';
