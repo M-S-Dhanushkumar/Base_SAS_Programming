@@ -32,7 +32,7 @@ data output_data;
 
     output;
     keep Study_Number Type_of_Study Site_Name Role Name Status Phase Species_Name NO__OF_VIDEOS ASSESSOR
- ASSESSOR NAME_OF_QC_PERSON BOXES_ALLOTTED NO_OF_HOURS COUNT_OF_SPECIES Start_Date End_Date activity_type;
+ ASSESSOR NAME_OF_QC_PERSON BOXES_ALLOTTED NO_OF_HOURS COUNT_OF_SPECIES Actual_Start_Date Actual_Completion_Date activity_type;
 run;
 
 /* Export the reshaped data to Excel */
