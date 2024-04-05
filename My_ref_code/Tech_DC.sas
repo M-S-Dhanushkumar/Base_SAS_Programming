@@ -28,14 +28,12 @@ data output_data;
 	Role = 'Data Manager';
     Name = Data_Manager;
     output;
-    Role = 'Global PoC';
-    Name = Global_PoC;
-    output;
-    Role = 'IAC PoC';
-    Name = IAC_PoC;
+    
+    Role = 'Lead Data Manager';
+    Name = POC;
     output;
 
-    keep Stability_ID Type_of_Study Project_Name  Site_CRO Activity Month_batch_number No_of_Pages_received Status No_of_rows_entered Priority
+    keep Stability_ID  Project_Name  Site_CRO Activity Month_batch_number No_of_Pages_received Status No_of_rows_entered Priority
  Data_entry___Validation_Request DMP_Expected_Date DMP_Completed_Date Data_Received Actual_Start_Date Actual_Completion_Date Time_taken_for_DE__Hours_ Time_taken_for_Validation_Hours_ Role Name activity_type;
 run;
 
